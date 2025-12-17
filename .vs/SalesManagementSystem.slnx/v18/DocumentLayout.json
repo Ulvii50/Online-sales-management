@@ -1,49 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\salescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\salescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\salescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\salescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\salesmanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\salesmanagementsystem\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\salesmanagementsystem\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\salescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\salescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\dashboardcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\salescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\salescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\salesmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\salesmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|d:\\bmu(3-cu kurs)\\c#(windows_form)\\ff\\salesmanagementsystem\\salesmanagementsystem\\salesmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\users\\ulvi\\desktop\\ff\\salesmanagementsystem\\salesmanagementsystem\\salesmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1CA8108C-3F22-5CFA-4098-6F16086330DF}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\salesmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -54,21 +58,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DBAccess.cs",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\DBAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\DBAccess.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\DBAccess.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\DBAccess.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\DBAccess.cs",
               "RelativeToolTip": "SalesManagementSystem\\DBAccess.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwBUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T14:23:52.866Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -80,38 +83,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SalesControl.cs [Design]",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesControl.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\SalesControl.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesControl.cs [Design]",
-              "RelativeToolTip": "SalesManagementSystem\\SalesControl.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "DashboardControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\DashboardControl.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\DashboardControl.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\DashboardControl.cs [Design]",
+              "RelativeToolTip": "SalesManagementSystem\\DashboardControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T18:06:11.153Z",
+              "WhenOpened": "2025-12-15T14:33:23.403Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SalesControl.cs",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesControl.cs",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesControl.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\SalesControl.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesControl.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesControl.cs",
               "RelativeToolTip": "SalesManagementSystem\\SalesControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkBAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAwwGkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T20:24:50.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\MainForm.cs",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\MainForm.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\MainForm.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\MainForm.cs [Design]",
+              "RelativeToolTip": "SalesManagementSystem\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T03:32:48.466Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\MainForm.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\MainForm.cs",
               "RelativeToolTip": "SalesManagementSystem\\MainForm.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T15:46:04.763Z",
               "EditorCaption": ""
@@ -120,11 +135,11 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DashboardControl.cs",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\DashboardControl.cs",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\DashboardControl.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\DashboardControl.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\DashboardControl.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\DashboardControl.cs",
               "RelativeToolTip": "SalesManagementSystem\\DashboardControl.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAYwDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwB0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T11:02:57.619Z",
               "EditorCaption": ""
@@ -132,21 +147,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DashboardControl.cs [Design]",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\DashboardControl.cs",
-              "RelativeDocumentMoniker": "SalesManagementSystem\\DashboardControl.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\DashboardControl.cs [Design]",
-              "RelativeToolTip": "SalesManagementSystem\\DashboardControl.cs [Design]",
+              "Title": "SalesControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesControl.cs",
+              "RelativeDocumentMoniker": "SalesManagementSystem\\SalesControl.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesControl.cs [Design]",
+              "RelativeToolTip": "SalesManagementSystem\\SalesControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:33:23.403Z"
+              "WhenOpened": "2025-12-16T18:06:11.153Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Program.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\Program.cs",
               "RelativeToolTip": "SalesManagementSystem\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,11 +170,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\LoginForm.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\LoginForm.cs",
               "RelativeToolTip": "SalesManagementSystem\\LoginForm.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAmwCkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -167,22 +183,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\LoginForm.cs",
               "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\LoginForm.cs [Design]",
-              "RelativeToolTip": "SalesManagementSystem\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T16:58:41.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserSession.cs",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\UserSession.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\UserSession.cs",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\UserSession.cs",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\UserSession.cs",
               "RelativeToolTip": "SalesManagementSystem\\UserSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,11 +205,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SalesManagementSystem.csproj",
-              "DocumentMoniker": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
               "RelativeDocumentMoniker": "SalesManagementSystem\\SalesManagementSystem.csproj",
-              "ToolTip": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
               "RelativeToolTip": "SalesManagementSystem\\SalesManagementSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

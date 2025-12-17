@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj": {}
+    "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj": {}
   },
   "projects": {
-    "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj": {
+    "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
         "projectName": "SalesManagementSystem",
-        "projectPath": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+        "projectPath": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
         "packagesPath": "C:\\Users\\Ulvi\\.nuget\\packages\\",
-        "outputPath": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ulvi\\AppData\\Roaming\\NuGet\\NuGet.Config",

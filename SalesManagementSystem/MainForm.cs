@@ -74,13 +74,21 @@ namespace SalesManagementSystem
             Application.Exit();
         }
 
-      
+
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime currentTime = DateTime.Now;
             CultureInfo azCulture = new CultureInfo("az-Latn-AZ");
-            lblCurrentDateTime.Text = azCulture.TextInfo.ToTitleCase(currentTime.ToString("dd MMMM yyyy | dddd | HH:mm:ss",azCulture));
+            lblCurrentDateTime.Text = azCulture.TextInfo.ToTitleCase(currentTime.ToString("dd MMMM yyyy | dddd | HH:mm:ss", azCulture));
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            this.Hide();
+            loginForm.Show();
+
         }
     }
 }

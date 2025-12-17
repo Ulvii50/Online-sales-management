@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
             txtSearch = new TextBox();
             dgvProducts = new DataGridView();
             dgvCart = new DataGridView();
@@ -78,24 +78,24 @@
             dgvProducts.BorderStyle = BorderStyle.None;
             dgvProducts.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
             dgvProducts.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(30, 30, 46);
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            dataGridViewCellStyle1.ForeColor = Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(30, 30, 46);
-            dataGridViewCellStyle1.SelectionForeColor = Color.White;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle9.BackColor = Color.FromArgb(30, 30, 46);
+            dataGridViewCellStyle9.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            dataGridViewCellStyle9.ForeColor = Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(30, 30, 46);
+            dataGridViewCellStyle9.SelectionForeColor = Color.White;
+            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
+            dgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             dgvProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvProducts.Cursor = Cursors.Hand;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = SystemColors.Window;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 10F);
-            dataGridViewCellStyle2.ForeColor = Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = Color.SeaGreen;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            dgvProducts.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = SystemColors.Window;
+            dataGridViewCellStyle10.Font = new Font("Segoe UI", 10F);
+            dataGridViewCellStyle10.ForeColor = Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = Color.SeaGreen;
+            dataGridViewCellStyle10.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = DataGridViewTriState.False;
+            dgvProducts.DefaultCellStyle = dataGridViewCellStyle10;
             dgvProducts.EnableHeadersVisualStyles = false;
             dgvProducts.GridColor = Color.FromArgb(230, 230, 230);
             dgvProducts.Location = new Point(16, 69);
@@ -111,28 +111,29 @@
             // 
             // dgvCart
             // 
+            dgvCart.AllowUserToAddRows = false;
             dgvCart.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvCart.BackgroundColor = Color.White;
             dgvCart.BorderStyle = BorderStyle.None;
             dgvCart.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
             dgvCart.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            dgvCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.BackColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle11.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            dataGridViewCellStyle11.ForeColor = Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = DataGridViewTriState.True;
+            dgvCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             dgvCart.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = SystemColors.Window;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 10F);
-            dataGridViewCellStyle4.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = Color.White;
-            dataGridViewCellStyle4.SelectionForeColor = Color.Black;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.False;
-            dgvCart.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.BackColor = SystemColors.Window;
+            dataGridViewCellStyle12.Font = new Font("Segoe UI", 10F);
+            dataGridViewCellStyle12.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle12.SelectionBackColor = Color.White;
+            dataGridViewCellStyle12.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.False;
+            dgvCart.DefaultCellStyle = dataGridViewCellStyle12;
             dgvCart.EnableHeadersVisualStyles = false;
             dgvCart.GridColor = Color.FromArgb(230, 230, 230);
             dgvCart.Location = new Point(16, 69);
@@ -146,6 +147,7 @@
             dgvCart.Size = new Size(535, 333);
             dgvCart.TabIndex = 2;
             dgvCart.CellContentClick += dgvCart_CellContentClick;
+            dgvCart.CellFormatting += dgvCart_CellFormatting;
             // 
             // numCount
             // 
@@ -250,6 +252,7 @@
             btnCard.TabIndex = 10;
             btnCard.Text = "KART";
             btnCard.UseVisualStyleBackColor = false;
+            btnCard.Click += btnCard_Click;
             // 
             // btnCash
             // 
@@ -264,6 +267,7 @@
             btnCash.TabIndex = 9;
             btnCash.Text = "NAĞD";
             btnCash.UseVisualStyleBackColor = false;
+            btnCash.Click += btnCash_Click;
             // 
             // label2
             // 
@@ -289,24 +293,24 @@
             // lblChange
             // 
             lblChange.AutoSize = true;
-            lblChange.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            lblChange.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblChange.ForeColor = Color.Firebrick;
-            lblChange.Location = new Point(399, 128);
+            lblChange.Location = new Point(394, 136);
             lblChange.Name = "lblChange";
-            lblChange.Size = new Size(133, 37);
+            lblChange.Size = new Size(76, 28);
             lblChange.TabIndex = 8;
-            lblChange.Text = "100.00 ₼";
+            lblChange.Text = "0.00 ₼";
             // 
             // lblTotalAmount
             // 
             lblTotalAmount.AutoSize = true;
-            lblTotalAmount.Font = new Font("Segoe UI", 22F, FontStyle.Bold);
+            lblTotalAmount.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             lblTotalAmount.ForeColor = Color.DarkGreen;
-            lblTotalAmount.Location = new Point(213, 10);
+            lblTotalAmount.Location = new Point(217, 20);
             lblTotalAmount.Name = "lblTotalAmount";
-            lblTotalAmount.Size = new Size(178, 50);
+            lblTotalAmount.Size = new Size(92, 35);
             lblTotalAmount.TabIndex = 4;
-            lblTotalAmount.Text = "100.00 ₼";
+            lblTotalAmount.Text = "0.00 ₼";
             // 
             // label3
             // 

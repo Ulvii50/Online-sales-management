@@ -91,6 +91,7 @@
             btnUsers.Text = "İstifadəçilər";
             btnUsers.TextAlign = ContentAlignment.MiddleLeft;
             btnUsers.UseVisualStyleBackColor = false;
+            btnUsers.Visible = false;
             // 
             // btnExitApp
             // 
@@ -120,6 +121,7 @@
             btnLogout.TabIndex = 4;
             btnLogout.Text = "Hesabdan çıx";
             btnLogout.UseVisualStyleBackColor = false;
+            btnLogout.Click += btnLogout_Click;
             // 
             // btnReports
             // 
@@ -135,6 +137,7 @@
             btnReports.Text = "Hesabatlar";
             btnReports.TextAlign = ContentAlignment.MiddleLeft;
             btnReports.UseVisualStyleBackColor = false;
+            btnReports.Visible = false;
             // 
             // btnProducts
             // 
@@ -150,6 +153,7 @@
             btnProducts.Text = "Məhsullar";
             btnProducts.TextAlign = ContentAlignment.MiddleLeft;
             btnProducts.UseVisualStyleBackColor = false;
+            btnProducts.Visible = false;
             // 
             // btnSales
             // 

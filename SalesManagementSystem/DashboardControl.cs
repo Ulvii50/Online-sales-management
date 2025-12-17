@@ -28,7 +28,7 @@ namespace SalesManagementSystem
 
 
             DataTable dt;
-            dt = DBAccess.GetTable("Select Count(*) from products");
+            dt = DBAccess.GetTable("Select Count(*) from products where stock >0");
             lblTotalProductCount.Text = dt.Rows[0][0].ToString();
 
             dt = DBAccess.GetTable("select count(*) from sales");

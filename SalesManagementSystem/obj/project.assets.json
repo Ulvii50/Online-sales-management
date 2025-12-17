@@ -362,11 +362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
       "projectName": "SalesManagementSystem",
-      "projectPath": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+      "projectPath": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
       "packagesPath": "C:\\Users\\Ulvi\\.nuget\\packages\\",
-      "outputPath": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ulvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -432,5 +432,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

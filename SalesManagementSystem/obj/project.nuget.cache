@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uUhxFgj9qYQ=",
+  "dgSpecHash": "gXUmqLhxcyo=",
   "success": true,
-  "projectFilePath": "D:\\BMU(3-cu kurs)\\C#(Windows_form)\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ulvi\\.nuget\\packages\\sourcegear.sqlite3\\3.50.4.2\\sourcegear.sqlite3.3.50.4.2.nupkg.sha512",
     "C:\\Users\\Ulvi\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\3.0.2\\sqlitepclraw.bundle_e_sqlite3.3.0.2.nupkg.sha512",
@@ -12,5 +12,15 @@
     "C:\\Users\\Ulvi\\.nuget\\packages\\system.data.sqlite\\2.0.2\\system.data.sqlite.2.0.2.nupkg.sha512",
     "C:\\Users\\Ulvi\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Ulvi\\Desktop\\FF\\SalesManagementSystem\\SalesManagementSystem\\SalesManagementSystem.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

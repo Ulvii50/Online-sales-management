@@ -18,10 +18,13 @@ namespace SalesManagementSystem
         }
 
         DataTable dtCart = new DataTable();
-        string paymentMethod = "Nağd"; 
+        string paymentMethod = "Nağd";
         private void SalesControl_Load(object sender, EventArgs e)
         {
             LoadProducts();
+            dgvCart.ClearSelection();
+            dgvCart.CurrentCell = null;
+            txtSearch.Focus();
 
             if (dtCart.Columns.Count == 0)
             {
@@ -36,17 +39,16 @@ namespace SalesManagementSystem
 
             if (!dgvCart.Columns.Contains("Delete"))
             {
-                DataGridViewButtonColumn deleteBtn = new DataGridViewButtonColumn();
+                DataGridViewTextBoxColumn deleteBtn = new DataGridViewTextBoxColumn();
+
                 deleteBtn.HeaderText = "";
                 deleteBtn.Name = "Delete";
-                deleteBtn.Text = "X";
-                deleteBtn.UseColumnTextForButtonValue = true;
-                deleteBtn.Width = 20;
-
-                deleteBtn.DefaultCellStyle.BackColor = Color.IndianRed;
-                deleteBtn.DefaultCellStyle.ForeColor = Color.White;
+                deleteBtn.Width = 15;
+                deleteBtn.DefaultCellStyle.ForeColor = Color.Red;
+                deleteBtn.DefaultCellStyle.SelectionForeColor = Color.Red;
+                deleteBtn.DefaultCellStyle.SelectionBackColor = Color.White;
                 deleteBtn.DefaultCellStyle.Font = new Font("Segoe UI", 9, FontStyle.Bold);
-
+                deleteBtn.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dgvCart.Columns.Add(deleteBtn);
             }
 
@@ -54,10 +56,7 @@ namespace SalesManagementSystem
             dgvCart.Columns["Price"].HeaderText = "Qiymət";
             dgvCart.Columns["Quantity"].HeaderText = "Say";
             dgvCart.Columns["Total"].HeaderText = "Cəm (AZN)";
-
             dgvCart.Columns["Id"].Visible = false;
-
-            UpdateButtonColors();
         }
 
 
@@ -81,8 +80,8 @@ namespace SalesManagementSystem
             int count = Convert.ToInt32(numCount.Value);
             if (count <= 0) count = 1;
 
-         
-            if (!string.IsNullOrEmpty(barcode))
+
+            if (barcode != "")
             {
                 string query = $"SELECT Id FROM Products WHERE Barcode = '{barcode}'";
                 DataTable dt = DBAccess.GetTable(query);
@@ -93,11 +92,10 @@ namespace SalesManagementSystem
 
                     AddToCart(id, count);
 
-             
                     txtSearch.Clear();
                     txtSearch.Focus();
                     numCount.Value = 1;
-                    return; 
+                    return;
                 }
                 else
                 {
@@ -106,19 +104,14 @@ namespace SalesManagementSystem
                 }
             }
 
-          
+
             if (dgvProducts.CurrentRow != null && dgvProducts.CurrentRow.Index > -1)
             {
                 try
                 {
-         
-                    var cellValue = dgvProducts.CurrentRow.Cells[0].Value;
-
-                    if (cellValue != null)
-                    {
-                        AddToCart(cellValue.ToString(), count);
-                        numCount.Value = 1;
-                    }
+                    string cellValue = dgvProducts.CurrentRow.Cells[0].Value.ToString();
+                    AddToCart(cellValue, count);
+                    numCount.Value = 1;                 
                 }
                 catch (Exception ex)
                 {
@@ -132,19 +125,19 @@ namespace SalesManagementSystem
         }
         private void AddToCart(string productId, int quantityToAdd)
         {
-           
+
             string sql = $"SELECT * FROM Products WHERE Id = {productId}";
             DataTable dt = DBAccess.GetTable(sql);
 
             if (dt.Rows.Count > 0)
             {
                 DataRow product = dt.Rows[0];
-                int pId = Convert.ToInt32(product["Id"]);
-                string pName = product["Name"].ToString();
-                double pPrice = Convert.ToDouble(product["Price"]);
-                int stockInDb = Convert.ToInt32(product["Stock"]); 
+                int pId = Convert.ToInt32(dt.Rows[0]["Id"]);
+                string pName = dt.Rows[0]["Name"].ToString();
+                double pPrice = Convert.ToDouble(dt.Rows[0]["Price"]);
+                int stockInDb = Convert.ToInt32(dt.Rows[0]["Stock"]);
 
-            
+
                 int currentQtyInCart = 0;
                 foreach (DataRow row in dtCart.Rows)
                 {
@@ -155,7 +148,7 @@ namespace SalesManagementSystem
                     }
                 }
 
-            
+
                 if ((currentQtyInCart + quantityToAdd) > stockInDb)
                 {
                     MessageBox.Show($"Stokda kifayət qədər məhsul yoxdur!\nBazadakı Stok: {stockInDb}\nSəbətdə: {currentQtyInCart}",
@@ -163,7 +156,7 @@ namespace SalesManagementSystem
                     return;
                 }
 
-              
+
                 bool alreadyInCart = false;
                 foreach (DataRow row in dtCart.Rows)
                 {
@@ -184,7 +177,7 @@ namespace SalesManagementSystem
 
                 foreach (DataGridViewRow productRow in dgvProducts.Rows)
                 {
-                    
+
                     if (productRow.Cells[0].Value.ToString() == productId)
                     {
                         int currentStock = Convert.ToInt32(productRow.Cells["Stock"].Value);
@@ -194,14 +187,14 @@ namespace SalesManagementSystem
                     }
                 }
 
-              
+
                 CalculateTotalAmount();
             }
         }
 
         private void dgvCart_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+
             if (dgvCart.Columns[e.ColumnIndex].Name == "Delete" && e.RowIndex >= 0)
             {
                 DialogResult r = MessageBox.Show("Səbətdən silinsin?", "Təsdiq", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -224,7 +217,7 @@ namespace SalesManagementSystem
                                 break;
                             }
                         }
-                       
+
                         row.Delete();
                         CalculateTotalAmount();
                     }
@@ -236,7 +229,7 @@ namespace SalesManagementSystem
             }
         }
 
-       
+
         private void btnClearCart_Click(object sender, EventArgs e)
         {
             if (dtCart.Rows.Count == 0) return;
@@ -255,17 +248,17 @@ namespace SalesManagementSystem
                         if (prodRow.Cells[0].Value.ToString() == id)
                         {
                             int currentStock = Convert.ToInt32(prodRow.Cells["Stock"].Value);
-                            prodRow.Cells["Stock"].Value = currentStock + qty; 
+                            prodRow.Cells["Stock"].Value = currentStock + qty;
                             break;
                         }
                     }
                 }
 
-                
+
                 dtCart.Rows.Clear();
                 txtPaid.Clear();
                 lblChange.Text = "0.00 ₼";
-                CalculateTotalAmount(); 
+                CalculateTotalAmount();
             }
         }
         private void CalculateTotalAmount()
@@ -276,7 +269,7 @@ namespace SalesManagementSystem
                 total += Convert.ToDouble(row["Total"]);
             }
             lblTotalAmount.Text = total.ToString("N2") + " ₼";
-            CalculateChange(); 
+            CalculateChangeRealTime();
         }
 
         private void CalculateChangeRealTime()
@@ -285,37 +278,23 @@ namespace SalesManagementSystem
             {
                 double totalAmount = 0;
                 string totalStr = lblTotalAmount.Text.Replace("₼", "").Trim();
-                if (!string.IsNullOrEmpty(totalStr))
-                {
-                    totalAmount = Convert.ToDouble(totalStr);
-                }
+                totalAmount = Convert.ToDouble(totalStr);
 
-               
-                double paidAmount = 0;
 
-               
+                double paidAmount = Convert.ToDouble(txtPaid.Text); ;
+                
+
                 if (paymentMethod == "Kart")
                 {
                     paidAmount = totalAmount;
-                    txtPaid.Text = totalAmount.ToString(); 
-                    txtPaid.Enabled = false; 
+                    txtPaid.Text = totalAmount.ToString();
+                    txtPaid.Enabled = false;
                 }
-                else 
-                {
-                    txtPaid.Enabled = true;
-                    if (!string.IsNullOrEmpty(txtPaid.Text))
-                    {
-                        
-                        string paidStr = txtPaid.Text.Replace(".", ",");
-                        paidAmount = Convert.ToDouble(paidStr);
-                    }
-                }
-
-               
+              
                 double change = paidAmount - totalAmount;
                 lblChange.Text = change.ToString("N2") + " ₼";
 
-                
+
                 if (change < 0)
                     lblChange.ForeColor = Color.Red;
                 else
@@ -323,70 +302,121 @@ namespace SalesManagementSystem
             }
             catch
             {
-               
+
                 lblChange.Text = "0.00 ₼";
             }
         }
 
         private void txtPaid_TextChanged(object sender, EventArgs e)
         {
-            
+
             CalculateChangeRealTime();
         }
-        private void CalculateChange()
+
+
+
+        private void btnFinishSale_Click(object sender, EventArgs e)
         {
-            try
+           
+            if (dtCart.Rows.Count == 0)
             {
-                double grandTotal = 0;
-                string totalText = lblTotalAmount.Text.Replace("₼", "").Trim();
-                if (totalText != "") grandTotal = Convert.ToDouble(totalText);
-
-                double paidAmount = 0;
-                if (!string.IsNullOrEmpty(txtPaid.Text))
-                {
-                    paidAmount = Convert.ToDouble(txtPaid.Text);
-                }
-
-                double change = paidAmount - grandTotal;
-                lblChange.Text = change.ToString("N2") + " ₼";
-
-                if (change < 0) lblChange.ForeColor = Color.Red;
-                else lblChange.ForeColor = Color.Green;
+                MessageBox.Show("Səbət boşdur! Satış etmək üçün məhsul əlavə edin.", "Xəbərdarlıq", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            catch
-            {
-                lblChange.Text = "0.00 ₼";
-            }
-        }
-
-       
 
           
+            double totalAmount = 0;           
+            totalAmount = Convert.ToDouble(lblTotalAmount.Text.Replace("₼", "").Trim());
+            double paidAmount = 0;
 
-
-
-
-        private void UpdateButtonColors()
-        {
-            if (paymentMethod == "Nağd")
+        
+            if (paymentMethod == "Kart")
             {
-                btnCash.BackColor = Color.Green;
-                btnCash.ForeColor = Color.White;
-                btnCard.BackColor = Color.LightGray;
-                btnCard.ForeColor = Color.Black;
-                txtPaid.Enabled = true; 
+                paidAmount = totalAmount;
             }
             else 
             {
-                btnCard.BackColor = Color.Green;
-                btnCard.ForeColor = Color.White;
-                btnCash.BackColor = Color.LightGray;
-                btnCash.ForeColor = Color.Black;
+                if (!string.IsNullOrEmpty(txtPaid.Text))
+                {
+                    try
+                    {                       
+                        paidAmount = Convert.ToDouble(txtPaid.Text.Replace(".", ","));
+                    }
+                    catch { paidAmount = 0; }
+                }
+            }
 
-                
-                string totalStr = lblTotalAmount.Text.Replace("₼", "").Trim();
-                txtPaid.Text = totalStr;
-                txtPaid.Enabled = false;
+            
+            if (Math.Round(paidAmount, 2) < Math.Round(totalAmount, 2))
+            {
+                MessageBox.Show($"Ödənilən məbləğ kifayət deyil!\nCəm: {totalAmount:N2} ₼\nÖdənilən: {paidAmount:N2} ₼",
+                                "Ödəniş Xətası", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            DialogResult r = MessageBox.Show($"Satışı tamamlamaq istəyirsiniz?\nCəm: {totalAmount:N2} ₼",
+                                             "Təsdiq", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (r != DialogResult.Yes) return;
+
+
+          
+            try
+            {
+
+                string tDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                string totalStr = totalAmount.ToString("0.00").Replace(",", ".");  
+                string sqlSale = $"INSERT INTO Sales (TransactionDate, TotalAmount, SellerId) VALUES ('{tDate}', {totalStr}, {UserSession.Id})";
+                DBAccess.Execute(sqlSale);
+                MessageBox.Show("Satış uğurla tamamlandı!", "Uğurlu", MessageBoxButtons.OK, MessageBoxIcon.Information);             
+                dtCart.Rows.Clear();
+                txtPaid.Clear();
+                lblTotalAmount.Text = "0.00 ₼";
+                lblChange.Text = "0.00 ₼";
+                lblChange.ForeColor = Color.Black;            
+                paymentMethod = "Nağd";          
+                LoadProducts();     
+                txtSearch.Focus();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Sistem xətası baş verdi:\n" + ex.Message, "Xəta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        private void btnCash_Click(object sender, EventArgs e)
+        {
+            paymentMethod = "Nağd";
+            btnCash.BackColor = Color.MediumSeaGreen;
+            btnCash.ForeColor = Color.White;
+
+            btnCard.BackColor = Color.White;
+            btnCard.ForeColor = Color.Black;
+            txtPaid.Enabled = true;
+            
+            CalculateChangeRealTime();
+        }
+
+        private void btnCard_Click(object sender, EventArgs e)
+        {
+            paymentMethod = "Kart";
+            btnCard.BackColor = Color.MediumSeaGreen;
+            btnCard.ForeColor = Color.White;
+            btnCash.BackColor = Color.White;
+            btnCash.ForeColor = Color.Black;
+            txtPaid.Enabled = false;
+            txtPaid.Text = Convert.ToDouble(lblTotalAmount.Text.Replace("₼", "")).ToString().Trim();
+
+            CalculateChangeRealTime();
+        }
+
+        private void dgvCart_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            if (dgvCart.Columns[e.ColumnIndex].Name == "Delete")
+            {
+                e.Value = "Sil";
             }
         }
     }
